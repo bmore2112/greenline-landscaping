@@ -67,9 +67,9 @@
     .display-balance { text-wrap: balance; }
     .body-pretty { text-wrap: pretty; }
 
-    /* Curated image treatment: warm, soft, slightly editorial */
+    /* Curated image treatment: warm, soft, slightly editorial — keeps greenery lush */
     .img-warm {
-      filter: saturate(0.92) contrast(1.04) brightness(1.01) sepia(0.06);
+      filter: saturate(1.05) contrast(1.03) brightness(1.02);
     }
     .img-frame { overflow: hidden; }
     .img-frame img {
@@ -168,10 +168,10 @@
     <section aria-labelledby="hero-heading" class="relative grain min-h-[100svh] flex items-end overflow-hidden">
       <div class="absolute inset-0 -z-10">
         <div class="img-frame absolute inset-0">
-          <img src="https://picsum.photos/seed/lushgardenlandscape/1920/1280" alt="A lush backyard garden with layered perennial beds, a stone path, and mature trees at golden hour" class="img-warm h-full w-full object-cover" fetchpriority="high" width="1920" height="1280" />
+          <img src="https://loremflickr.com/1920/1280/backyard,landscape?lock=101" alt="A lush backyard landscape with layered green plantings, a stone path, and mature trees" class="img-warm h-full w-full object-cover" fetchpriority="high" width="1920" height="1280" />
         </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-forest/92 via-forest/55 to-forest/25"></div>
-        <div class="absolute inset-0 bg-gradient-to-r from-forest/45 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-forest/88 via-forest/40 to-forest/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-forest/40 to-transparent"></div>
       </div>
 
       <div class="mx-auto max-w-6xl w-full px-4 sm:px-6 pb-16 sm:pb-24 pt-40">
@@ -208,11 +208,11 @@
 
           <!-- Design & Build — large feature -->
           <article class="reveal group relative md:col-span-2 md:row-span-2 rounded-organic overflow-hidden bg-forest text-cream p-7 md:p-10 flex flex-col justify-end img-frame">
-            <img src="https://picsum.photos/seed/landscapedesignbuild/1200/1200" alt="Newly built fieldstone patio surrounded by fresh plantings" class="img-warm absolute inset-0 h-full w-full object-cover opacity-55" loading="lazy" width="1200" height="1200" />
-            <div class="absolute inset-0 bg-gradient-to-t from-forest via-forest/70 to-forest/10"></div>
+            <img src="https://loremflickr.com/1200/1200/hardscape,patio?lock=102" alt="Newly built stone patio surrounded by fresh garden plantings" class="img-warm absolute inset-0 h-full w-full object-cover opacity-70" loading="lazy" width="1200" height="1200" />
+            <div class="absolute inset-0 bg-gradient-to-t from-forest via-forest/55 to-transparent"></div>
             <div class="relative">
               <span class="grid place-items-center h-12 w-12 rounded-2xl bg-cream/15 text-sage mb-5">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M4 21V8l8-5 8 5v13"/><path d="M9 21v-6h6v6"/></svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 21 2-2"/><path d="M5.5 18.5 9 15"/><path d="m9 15 4.5 4.5"/><path d="M13.5 19.5 17 16l-5-5-3.5 3.5"/><path d="m12 11 4-4"/><path d="M16 7V3h-4l-2 2 4 4 2-2Z"/></svg>
               </span>
               <h3 class="font-display text-2xl md:text-3xl mb-2">Landscape design &amp; build</h3>
               <p class="text-cream/80 max-w-md leading-relaxed body-pretty">From a hand-drawn plan to the last plant in the ground. We shape grade, structure, and planting into a space that fits how you actually live outdoors.</p>
@@ -233,7 +233,7 @@
           <!-- Hardscaping -->
           <article class="reveal group rounded-organic bg-terracotta text-cream p-7 flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
             <span class="grid place-items-center h-12 w-12 rounded-2xl bg-cream/20 text-cream mb-6">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="7" height="6" rx="1"/><rect x="14" y="4" width="7" height="6" rx="1"/><rect x="3" y="14" width="7" height="6" rx="1"/><rect x="14" y="14" width="7" height="6" rx="1"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="8" height="5" rx="1"/><rect x="13" y="5" width="8" height="5" rx="1"/><rect x="3" y="14" width="8" height="5" rx="1"/><rect x="13" y="14" width="8" height="5" rx="1"/><path d="M11 5v5M13 14v5"/></svg>
             </span>
             <div>
               <h3 class="font-display text-xl mb-1.5">Patios &amp; stone walls</h3>
@@ -243,8 +243,8 @@
 
           <!-- Irrigation & Lighting — wide -->
           <article class="reveal group relative md:col-span-2 rounded-organic overflow-hidden bg-forest-soft text-cream p-7 md:p-9 flex items-end img-frame">
-            <img src="https://picsum.photos/seed/gardenlightingnight/1200/700" alt="Warm low-voltage path lights glowing along an evening garden walkway" class="img-warm absolute inset-0 h-full w-full object-cover opacity-45" loading="lazy" width="1200" height="700" />
-            <div class="absolute inset-0 bg-gradient-to-r from-forest-soft via-forest-soft/80 to-transparent"></div>
+            <img src="https://loremflickr.com/1200/700/irrigation,sprinkler?lock=103" alt="Garden sprinkler watering a green lawn alongside a planted walkway" class="img-warm absolute inset-0 h-full w-full object-cover opacity-60" loading="lazy" width="1200" height="700" />
+            <div class="absolute inset-0 bg-gradient-to-r from-forest-soft via-forest-soft/65 to-transparent"></div>
             <div class="relative max-w-md">
               <span class="grid place-items-center h-12 w-12 rounded-2xl bg-cream/15 text-sage mb-5">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2h6c0-.8.4-1.5 1-2A7 7 0 0 0 12 2Z"/></svg>
@@ -284,7 +284,7 @@
       <div class="mx-auto max-w-7xl px-4 sm:px-6 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="relative">
           <div class="reveal img-frame rounded-organic overflow-hidden shadow-2xl">
-            <img src="https://picsum.photos/seed/familylandscapecrew/900/1100" alt="The Greenline crew planting a tree together in a residential yard" class="img-warm w-full h-full object-cover" loading="lazy" width="900" height="1100" />
+            <img src="https://loremflickr.com/900/1100/flower,garden?lock=104" alt="A flourishing residential flower garden with dense, colorful plantings" class="img-warm w-full h-full object-cover" loading="lazy" width="900" height="1100" />
           </div>
           <div class="reveal absolute -bottom-6 -right-2 sm:right-6 bg-cream text-forest rounded-organic p-6 shadow-2xl max-w-[220px]">
             <p class="font-display text-4xl leading-none">15+</p>
@@ -347,7 +347,7 @@
         <div id="gallery-track" class="flex h-full items-center gap-6 px-4 sm:px-6 will-change-transform">
 
           <article class="img-frame group relative h-[72vh] w-[82vw] sm:w-[60vw] lg:w-[40vw] shrink-0 rounded-organic overflow-hidden bg-forest">
-            <img src="https://picsum.photos/seed/bluestonepatioproject/1200/1400" alt="Completed bluestone patio with built-in seating wall and surrounding perennial border" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
+            <img src="https://loremflickr.com/1200/1400/garden,patio?lock=105" alt="Completed stone patio with a built-in seating wall and surrounding perennial garden border" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
             <div class="absolute inset-0 bg-gradient-to-t from-forest/90 to-transparent"></div>
             <div class="absolute bottom-0 p-7 md:p-9 text-cream">
               <p class="text-sage text-sm font-medium mb-1">Florence, MA</p>
@@ -356,7 +356,7 @@
           </article>
 
           <article class="img-frame group relative h-[72vh] w-[82vw] sm:w-[60vw] lg:w-[40vw] shrink-0 rounded-organic overflow-hidden bg-forest">
-            <img src="https://picsum.photos/seed/perennialgardenbed/1200/1400" alt="A layered four-season perennial garden in full midsummer bloom" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
+            <img src="https://loremflickr.com/1200/1400/flower,garden?lock=106" alt="A layered four-season perennial flower garden in full midsummer bloom" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
             <div class="absolute inset-0 bg-gradient-to-t from-forest/90 to-transparent"></div>
             <div class="absolute bottom-0 p-7 md:p-9 text-cream">
               <p class="text-sage text-sm font-medium mb-1">Amherst, MA</p>
@@ -365,7 +365,7 @@
           </article>
 
           <article class="img-frame group relative h-[72vh] w-[82vw] sm:w-[60vw] lg:w-[40vw] shrink-0 rounded-organic overflow-hidden bg-forest">
-            <img src="https://picsum.photos/seed/frontwalkwaystone/1200/1400" alt="Curved natural-stone front walkway lined with low shrubs and lighting" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
+            <img src="https://loremflickr.com/1200/1400/stone,walkway?lock=107" alt="Curved natural-stone front walkway lined with low green shrubs" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
             <div class="absolute inset-0 bg-gradient-to-t from-forest/90 to-transparent"></div>
             <div class="absolute bottom-0 p-7 md:p-9 text-cream">
               <p class="text-sage text-sm font-medium mb-1">Northampton, MA</p>
@@ -374,7 +374,7 @@
           </article>
 
           <article class="img-frame group relative h-[72vh] w-[82vw] sm:w-[60vw] lg:w-[40vw] shrink-0 rounded-organic overflow-hidden bg-forest">
-            <img src="https://picsum.photos/seed/backyardfirepit/1200/1400" alt="Backyard gravel patio with a circular fire pit and string lighting" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
+            <img src="https://loremflickr.com/1200/1400/backyard,landscape?lock=108" alt="Backyard patio gathering space framed by lush green landscaping" class="img-warm h-full w-full object-cover" loading="lazy" width="1200" height="1400" />
             <div class="absolute inset-0 bg-gradient-to-t from-forest/90 to-transparent"></div>
             <div class="absolute bottom-0 p-7 md:p-9 text-cream">
               <p class="text-sage text-sm font-medium mb-1">Hadley, MA</p>
